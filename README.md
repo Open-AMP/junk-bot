@@ -7,13 +7,12 @@
 	* Then it fetches all the css links using `BeautifulSoup`.
 	* Then it again fetches css content using `requests` library.
 	* Creates a store dictionary containing details in hierarchical structure.
-	* ` structures of the Store
+	* ```python
 Store = {
     url: {
         'css_urls': [],
         'css_strings': { 'css_url': 'string'}
     }
 }
-`
-
+```
 	* Then it stores the entire store into a file for reusable purposes.
