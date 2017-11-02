@@ -17,3 +17,16 @@ Store = {
     }
 }
 ```
+
+* ScrapeJS
+	* Similarly to the CSS script, this scrapes JS from various websites
+	* All functionalities are similar to the CSS script
+```python
+# Structure of store
+Store = {
+    url: {
+        'js_urls': [],
+        'js_strings': { 'js_url': 'string'}
+    }
+}
+```
