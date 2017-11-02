@@ -1,4 +1,7 @@
 # Junk Bot
+---
+This Tool aims to identify and reduce code-junk or visually appealing codebase which does not aid user-interaction, first paint / first interactive timing and slows down page loading on slower networks and devices.
+--- 
 
 * ScrapeCSS 
 	* This script is all about scraping css from various websites.
