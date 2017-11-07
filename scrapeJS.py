@@ -31,22 +31,32 @@ def js_list(url):
     html_data = requests.get(url).content
     log('creating soup...')
     soup = Soup(html_data, 'html.parser')
-    link_tags = soup.findAll('script', attrs={'type': 'text/javascript'})
+    link_tags = soup.findAll('script')
     log('%d javascript script tags found!'%len(link_tags))
     js_link_list = []
+    js_strings = []
     for link in link_tags:
-        if '.js' in link.get('src'):
-            js_link_list.append(link.get('src'))
-    return js_link_list
+        if link.string :
+            # log(link.string)
+            js_strings.append(link.string)
+        else:
+            if link.get('src') != None:
+                js_link_list.append(link.get('src'))
+    return (js_link_list, js_strings)
 
 
 def save_to_store(url):
     ''' takes a url of the website and saves js details into store '''
-    js_link_list = js_list(url)
+    js_link_list, js_strings = js_list(url)
+    log("%d js strings found" % len(js_strings))
     log('%d js files found!'%len(js_link_list))
     log('Here\'s js links list: %s' % str(js_link_list))
+    
     if not Store.get(url): Store[url] = {}
     Store[url]['js_urls'] = js_link_list
+
+    # js_in_string: list of javascript code inside the <script> in html
+    Store[url]['js_in_string'] = js_strings
     log('storing js_content to store...')
     for js_url in js_link_list:
         js_content = requests.get(js_url).content
