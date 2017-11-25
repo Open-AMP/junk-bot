@@ -1,8 +1,10 @@
 "use strict";
 
-var url="https://fb.com/";
+var url="https://"+(process.argv[2]).toString();
 var name=url.split('//')[1].split(".")[0];
+
 var cssUrls =[];
+
 var _fs = require("fs");
 
 var fs = _interopRequireWildcard(_fs);
@@ -31,12 +33,12 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
     return client.on("Page.loadEventFired", resolve);
   });
 
-  var CSSUrl = await new Promise(function (resolve) {
+  await new Promise(function (resolve) {
     return client.on("CSS.styleSheetAdded", resolve);
   });
   cssUrls=push(CSSUrl);
   console.log(CSSUrl, cssUrls);
-  
+
   await new Promise(function (resolve) {
     return setTimeout(resolve, 1000);
   });

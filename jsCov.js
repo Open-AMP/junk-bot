@@ -1,8 +1,7 @@
 "use strict";
 
-var url="http://thenodeway.io/"
+var url="https://"+(process.argv[2]).toString();
 var name=url.split('//')[1].split(".")[0];
-console.log(name);
 
 var _fs = require("fs");
 
@@ -35,7 +34,7 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
     return setTimeout(resolve, 1000);
   });
   var result = await client.send("Profiler.takePreciseCoverage");
-  fs.writeFileSync(`${name}-JSCoverage.json`, JSON.stringify(result, null, 2));
+  fs.writeFileSync(`${name}-JSCov.json`, JSON.stringify(result, null, 2));
 }).catch(function (err) {
   console.error(err);
 });
