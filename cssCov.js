@@ -3,8 +3,6 @@
 var url="https://"+(process.argv[2]).toString();
 var name=url.split('//')[1].split(".")[0];
 
-var cssUrls =[];
-
 var _fs = require("fs");
 
 var fs = _interopRequireWildcard(_fs);
@@ -29,21 +27,36 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
   await client.send("Page.navigate", {
     url: "http://thenodeway.io/"
   });
+  
   await new Promise(function (resolve) {
     return client.on("Page.loadEventFired", resolve);
   });
 
   await new Promise(function (resolve) {
-    return client.on("CSS.styleSheetAdded", resolve);
-  });
-  cssUrls=push(CSSUrl);
-  console.log(CSSUrl, cssUrls);
-
-  await new Promise(function (resolve) {
     return setTimeout(resolve, 1000);
   });
   var result = await client.send("CSS.takeCoverageDelta");
-  fs.writeFileSync(`${name}-CSSCov.json`, JSON.stringify(result, null, 2));
+
+  //var obj = result.coverage;
+  //console.log(obj);
+  var css=[];
+
+  var coverage = result.coverage;
+  console.log("Coverage len: ",coverage.length);
+  for ( var x in coverage ) {
+    console.log(coverage[x].styleSheetId);
+    css.push(await client.send("CSS.getStyleSheetText", {
+          styleSheetId: coverage[x].styleSheetId
+        }));
+  }
+  
+ var cssText = [];
+  for (var x in css ) {
+     cssText[x]= new Object();
+     cssText[x].index=x;
+     cssText[x].css=css[x].text.substring(coverage[x].startOffset, coverage[x].endOffset);
+  }
+  fs.writeFileSync(`${name}-CSSCov.json`, JSON.stringify(cssText, null, 2));
 }).catch(function (err) {
   console.error(err);
 });
