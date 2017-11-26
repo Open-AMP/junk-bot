@@ -25,7 +25,7 @@ function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj;
   await client.send("Page.enable");
   await client.send("CSS.startRuleUsageTracking");
   await client.send("Page.navigate", {
-    url: "http://thenodeway.io/"
+    url: url
   });
   
   await new Promise(function (resolve) {
