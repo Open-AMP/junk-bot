@@ -1,0 +1,27 @@
+{
+  "name": "junk-bot",
+  "version": "1.0.0",
+  "description": "A tool to remove unused code from JS and CSS",
+  "main": "cssCov.js",
+  "dependencies": {
+    "chrome-debugging-client": "^0.4.4"
+  },
+  "scripts": {
+    "test": "node cssCov.js wikipedia.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laveesingh/junk-bot.git"
+  },
+  "keywords": [
+    "code coverage",
+    "machine learning",
+    "web scraping"
+  ],
+  "author": "Karan Sapolia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laveesingh/junk-bot/issues"
+  },
+  "homepage": "https://github.com/laveesingh/junk-bot#readme"
+}
