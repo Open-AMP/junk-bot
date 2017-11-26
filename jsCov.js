@@ -7,7 +7,7 @@ var _fs = require("fs");
 
 var fs = _interopRequireWildcard(_fs);
 
-var _chromeDebuggingClient = require("/home/w/.nvm/versions/node/v8.9.1/lib/node_modules/chrome-debugging-client");
+var _chromeDebuggingClient = require("chrome-debugging-client");
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
