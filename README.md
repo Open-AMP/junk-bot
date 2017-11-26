@@ -73,3 +73,32 @@ Coverage = [
         "css": String
     },
 ```
+
+## Interacting with the database
+
+Note: For detailed api reference: [mLab Data API](http://docs.mlab.com/data-api/)
+
+`API_KEY = 'mS7qtU5uAY2Lza7A2mGHieDVEfE8AfLs'`
+
+* Listing all collections in junkbot database
+```python
+endpoint = 'https://api.mlab.com/api/1/databases/junkbot/collections?apiKey=%s' % API_KEY
+response = requests.get(endpoint)
+```
+
+* Inserting a document in js collection
+```python
+endpoint = 'https://api.mlab.com/api/1/databases/junkbot/collections/js?apiKey=%s' % API_KEY
+response = requests.post(endpoint, data=json.dumps(db_obj), headers={'Content-Type': 'application/json'})
+```
+* Fetching all documents list in js collection
+```python
+endpoint = 'https://api.mlab.com/api/1/databases/junkbot/collections/js?apiKey=%s' % API_KEY
+response = request.get(endpoint)
+```
+
+* Fetching single document by id from js collection
+```python
+endpoint = 'https://api.mlab.com/api/1/databases/junkbot/collections/js/%s?apiKey=%s' % (document_id, API_KEY)
+response = request.get(endpoint)
+```
