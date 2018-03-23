@@ -1,4 +1,4 @@
-"use strict";
+"use strict"; 
 
 var url="https://"+(process.argv[2]).toString();
 var name=url.split('//')[1].split(".")[0];
