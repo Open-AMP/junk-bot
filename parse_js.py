@@ -13,7 +13,6 @@ def log(msg):
 def inline_log(msg):
     print(msg, end='', file=sys.stderr)
 
-
 def put_junk_to_db(file_name, root):
     log('parse file : %s' % file_name)
     log('loading file......')
@@ -40,7 +39,7 @@ def put_junk_to_db(file_name, root):
                 inline_log('.')
             junk_list.append(junk_str)
         log('')
-        # store[url] = junk_list
+
         store.append({
             'file': url,
             'junk_length': len(junk_list),
@@ -61,7 +60,7 @@ def put_junk_to_db(file_name, root):
     # js.insert_one(db_obj)
     return requests.post(api_url, data=json.dumps(db_obj), headers={'Content-Type': 'application/json'})
 
-
+# execution starts here
 if __name__ == '__main__':
     response = put_junk_to_db('wikipedia-JSCoverage.json', 'https://en.wikipedia.org/wiki/Main_Page')
     if response.status_code == 200:
