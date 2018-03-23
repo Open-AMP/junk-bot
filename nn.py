@@ -1,5 +1,5 @@
 from sknn.mlp import Classifier, Layer
-
+ 
 nn = Classifier(
     layers=[
         Layer("Rectifier", units=100),
