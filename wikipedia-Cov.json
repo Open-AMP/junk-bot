@@ -1,0 +1,612 @@
+[
+  {
+    "url": "https://www.wikipedia.org/",
+    "ranges": [
+      {
+        "start": 0,
+        "end": 123
+      }
+    ],
+    "text": "\ndocument.documentElement.className = document.documentElement.className.replace( /(^|\\s)no-js(\\s|$)/, \"$1js-enabled$2\" );\n"
+  },
+  {
+    "url": "https://www.wikipedia.org/",
+    "ranges": [
+      {
+        "start": 0,
+        "end": 926
+      }
+    ],
+    "text": "\nvar rtlLangs = ['ar','arc','arz','bcc','bgn','bqi','ckb','dv','fa','glk','he','kk-cn','kk-arab','khw','ks','ku-arab','lki','lrc','luz','mzn','pnb','ps','sd','sdh','ug','ur','yi'],\n    translationsHash = '8bb19579',\n    /*\n     This object is used by l10n scripts (page-localized.js, topten-localized.js)\n     to reveal the page content after l10n json is loaded.\n     A timer is also set to prevent JS from hiding page content indefinitelty.\n     This script is inlined to safeguard againt script loading errors and placed\n     at the top of the page to safeguard against any HTML loading/parsing errors.\n    */\n    wmL10nVisible = {\n        ready: false,\n        makeVisible: function(){\n            if ( !wmL10nVisible.ready ) {\n                wmL10nVisible.ready = true;\n                document.body.className += ' jsl10n-visible';\n            }\n        }\n    };\n    window.setTimeout( wmL10nVisible.makeVisible, 1000 )\n"
+  },
+  {
+    "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/js/index-47f5f07682.js",
+    "ranges": [
+      {
+        "start": 0,
+        "end": 74
+      },
+      {
+        "start": 144,
+        "end": 226
+      },
+      {
+        "start": 265,
+        "end": 386
+      },
+      {
+        "start": 398,
+        "end": 432
+      },
+      {
+        "start": 436,
+        "end": 572
+      },
+      {
+        "start": 577,
+        "end": 701
+      },
+      {
+        "start": 852,
+        "end": 919
+      },
+      {
+        "start": 933,
+        "end": 1127
+      },
+      {
+        "start": 1683,
+        "end": 1941
+      },
+      {
+        "start": 2468,
+        "end": 2686
+      },
+      {
+        "start": 2752,
+        "end": 2755
+      },
+      {
+        "start": 2758,
+        "end": 2801
+      },
+      {
+        "start": 2807,
+        "end": 3195
+      },
+      {
+        "start": 4057,
+        "end": 4081
+      },
+      {
+        "start": 4389,
+        "end": 4433
+      },
+      {
+        "start": 4758,
+        "end": 4784
+      },
+      {
+        "start": 4884,
+        "end": 4908
+      },
+      {
+        "start": 5310,
+        "end": 5431
+      },
+      {
+        "start": 5727,
+        "end": 5770
+      },
+      {
+        "start": 5930,
+        "end": 5972
+      },
+      {
+        "start": 6104,
+        "end": 6131
+      },
+      {
+        "start": 6171,
+        "end": 6183
+      },
+      {
+        "start": 6524,
+        "end": 6568
+      },
+      {
+        "start": 6668,
+        "end": 6676
+      },
+      {
+        "start": 6789,
+        "end": 6824
+      },
+      {
+        "start": 6959,
+        "end": 6973
+      },
+      {
+        "start": 7016,
+        "end": 7025
+      },
+      {
+        "start": 7572,
+        "end": 7577
+      },
+      {
+        "start": 7602,
+        "end": 7609
+      },
+      {
+        "start": 7634,
+        "end": 7745
+      },
+      {
+        "start": 7764,
+        "end": 7834
+      },
+      {
+        "start": 7853,
+        "end": 7925
+      },
+      {
+        "start": 7944,
+        "end": 7976
+      },
+      {
+        "start": 8041,
+        "end": 8164
+      },
+      {
+        "start": 8175,
+        "end": 8508
+      },
+      {
+        "start": 8573,
+        "end": 8588
+      },
+      {
+        "start": 8590,
+        "end": 8605
+      },
+      {
+        "start": 8610,
+        "end": 8844
+      },
+      {
+        "start": 8850,
+        "end": 8869
+      },
+      {
+        "start": 8901,
+        "end": 9192
+      },
+      {
+        "start": 9370,
+        "end": 9376
+      },
+      {
+        "start": 9388,
+        "end": 9516
+      },
+      {
+        "start": 9599,
+        "end": 9675
+      },
+      {
+        "start": 9692,
+        "end": 9758
+      },
+      {
+        "start": 9858,
+        "end": 9925
+      },
+      {
+        "start": 10367,
+        "end": 10376
+      },
+      {
+        "start": 10582,
+        "end": 10597
+      },
+      {
+        "start": 10672,
+        "end": 10722
+      },
+      {
+        "start": 10729,
+        "end": 10751
+      },
+      {
+        "start": 10851,
+        "end": 10861
+      },
+      {
+        "start": 10958,
+        "end": 11176
+      },
+      {
+        "start": 11233,
+        "end": 11451
+      },
+      {
+        "start": 11555,
+        "end": 11733
+      },
+      {
+        "start": 11755,
+        "end": 11934
+      },
+      {
+        "start": 11936,
+        "end": 12156
+      },
+      {
+        "start": 12174,
+        "end": 12179
+      },
+      {
+        "start": 12199,
+        "end": 12212
+      },
+      {
+        "start": 12269,
+        "end": 12435
+      },
+      {
+        "start": 13634,
+        "end": 13712
+      },
+      {
+        "start": 15355,
+        "end": 15412
+      },
+      {
+        "start": 17949,
+        "end": 18230
+      },
+      {
+        "start": 18273,
+        "end": 18286
+      },
+      {
+        "start": 18354,
+        "end": 18375
+      },
+      {
+        "start": 18408,
+        "end": 18429
+      },
+      {
+        "start": 18570,
+        "end": 18597
+      },
+      {
+        "start": 18620,
+        "end": 18631
+      },
+      {
+        "start": 18755,
+        "end": 18765
+      },
+      {
+        "start": 18825,
+        "end": 18832
+      },
+      {
+        "start": 18861,
+        "end": 18895
+      },
+      {
+        "start": 19294,
+        "end": 19495
+      },
+      {
+        "start": 19512,
+        "end": 19537
+      },
+      {
+        "start": 19613,
+        "end": 19815
+      },
+      {
+        "start": 19962,
+        "end": 20208
+      },
+      {
+        "start": 20256,
+        "end": 20373
+      },
+      {
+        "start": 20378,
+        "end": 20398
+      },
+      {
+        "start": 20860,
+        "end": 20899
+      },
+      {
+        "start": 21625,
+        "end": 21694
+      },
+      {
+        "start": 21997,
+        "end": 22191
+      },
+      {
+        "start": 22424,
+        "end": 22587
+      },
+      {
+        "start": 22597,
+        "end": 22634
+      },
+      {
+        "start": 22672,
+        "end": 22693
+      },
+      {
+        "start": 22795,
+        "end": 22815
+      },
+      {
+        "start": 22846,
+        "end": 22898
+      },
+      {
+        "start": 22936,
+        "end": 22938
+      },
+      {
+        "start": 22953,
+        "end": 22983
+      },
+      {
+        "start": 23043,
+        "end": 23055
+      },
+      {
+        "start": 23336,
+        "end": 23615
+      },
+      {
+        "start": 23620,
+        "end": 23640
+      },
+      {
+        "start": 23655,
+        "end": 23678
+      },
+      {
+        "start": 24763,
+        "end": 24857
+      },
+      {
+        "start": 24915,
+        "end": 24921
+      },
+      {
+        "start": 25271,
+        "end": 25310
+      }
+    ],
+    "text": "function addEvent(e,t,n){e&&(e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&(attachedEvents.push([e,t,n]),e.attachEvent(\"on\"+t,n)))}function removeEvent(e,t,n){e&&(e.removeEventListener?e.removeEventListener(t,n):e.detachEvent&&e.detachEvent(\"on\"+t,n))}function doWhenReady(e){var t=function(){removeEvent(document,\"DOMContentLoaded\",t),removeEvent(window,\"load\",t),e(),e=function(){}};\"complete\"===document.readyState?e():(addEvent(document,\"DOMContentLoaded\",t),addEvent(window,\"load\",t))}function getIso639(e){var t=e&&e.match(/^\\w+/);if(t&&(t=\"nb\"===t[0]?\"no\":t[0],!(t.length>3)))return t}function getDevicePixelRatio(){return void 0!==window.devicePixelRatio?window.devicePixelRatio:void 0!==window.msMatchMedia?window.msMatchMedia(\"(min-resolution: 192dpi)\").matches?2:window.msMatchMedia(\"(min-resolution: 144dpi)\").matches?1.5:1:1}function localizeTopTen(){function e(e){var t;try{t=JSON.parse(e)}catch(n){t=\"\"}return t}function t(e){var t,n,r=[];for(n=0;n<e.length;n++)t=e[n].getAttribute(\"lang\"),r.push(t);return r}function n(){var e,t,n,r;for(c=0;c<g.length;c++)e=g[c],t=u.indexOf(e),n=t>=0,r=t===c,n?r||u.splice(c,0,u.splice(t,1)[0]):(u.splice(c,0,e),u.pop())}function r(e,t){var n=e.getElementsByTagName(\"a\")[0],r=t.name.replace(/<\\/?[^>]+(>|$)/g,\"\");n.setAttribute(\"href\",\"//\"+t.url),n.setAttribute(\"id\",\"js-link-box-\"+t.lang),n.setAttribute(\"data-slogan\",t.slogan||\"The Free Encyclopedia\"),n.setAttribute(\"title\",r+\" — \"+t.siteName+\" — \"+(t.slogan||\"\")),e.setAttribute(\"lang\",t.lang),e.getElementsByTagName(\"strong\")[0].textContent=r,e.getElementsByTagName(\"bdi\")[0].textContent=t.numPages+\"+\",e.getElementsByTagName(\"span\")[0].textContent=t.entries||\"\"}function o(e){var t,n,r,o,a,i=document.querySelectorAll(\".central-featured-lang\"),s=!0;for(a=0;a<i.length&&s===!0;a++)n=i[a].getAttribute(\"lang\"),s=e.indexOf(n)>=0;for(a=0;a<i.length&&s===!0;a++)t=i[a],r=t.className,o=\"central-featured-lang lang\"+(a+1),r!==o&&(t.className=o)}function a(t,n){var a,i=new XMLHttpRequest;i.open(\"GET\",encodeURI(\"portal/wikipedia.org/assets/l10n/\"+n+\"-\"+translationsHash+\".json\"),!0),i.onload=function(){200===i.status&&(a=e(this.responseText),a&&(r(t,a),o(u),d=e(mw.storage.get(\"storedTranslations\"))||{},d[n]=a,mw.storage.set(\"storedTranslations\",JSON.stringify(d))))},i.send()}function i(e,t){var n=d;n[t]?r(e,n[t]):a(e,t)}function s(e,t){var n,r,o=null;for(r=t.length-1;r>=0&&null===o;r--)n=e[r].getAttribute(\"lang\"),t.indexOf(n)<0&&(o=e[r]);return o}function l(){var e,t,n,r,o;for(c=0;c<u.length;c++)e=document.querySelectorAll(\".central-featured-lang\"),t=u[c],n=document.querySelector(\".central-featured-lang[lang=\"+t+\"]\"),n?(r=Array.prototype.indexOf.call(e,n),r!==c&&h.insertBefore(n,e[c])):(o=s(e,u),i(o,t),h.insertBefore(o,e[c])),(n||o).setAttribute(\"dir\",rtlLangs.indexOf(t)>=0?\"rtl\":\"ltr\")}var c,u,d,g=wmTest.userLangs,m=document.querySelectorAll(\".central-featured-lang\"),h=document.querySelector(\".central-featured\"),p=mw.storage.get(\"translationHash\");d=e(mw.storage.get(\"storedTranslations\"))||{},u=t(m),p!==translationsHash&&(mw.storage.set(\"translationHash\",translationsHash),mw.storage.remove(\"storedTranslations\")),wmL10nVisible.ready||(n(),l(),o(u))}window.JSON||(window.JSON={parse:function(sJSON){return eval(\"(\"+sJSON+\")\")},stringify:function(){var e=Object.prototype.toString,t=Array.isArray||function(t){return\"[object Array]\"===e.call(t)},n={'\"':'\\\\\"',\"\\\\\":\"\\\\\\\\\",\"\\b\":\"\\\\b\",\"\\f\":\"\\\\f\",\"\\n\":\"\\\\n\",\"\\r\":\"\\\\r\",\"\\t\":\"\\\\t\"},r=function(e){return n[e]||\"\\\\u\"+(e.charCodeAt(0)+65536).toString(16).substr(1)},o=/[\\\\\"\\u0000-\\u001F\\u2028\\u2029]/g;return function a(n){if(null==n)return\"null\";if(\"number\"==typeof n)return isFinite(n)?n.toString():\"null\";if(\"boolean\"==typeof n)return n.toString();if(\"object\"==typeof n){if(\"function\"==typeof n.toJSON)return a(n.toJSON());if(t(n)){for(var i=\"[\",s=0;s<n.length;s++)i+=(s?\", \":\"\")+a(n[s]);return i+\"]\"}if(\"[object Object]\"===e.call(n)){var l=[];for(var c in n)n.hasOwnProperty(c)&&l.push(a(c)+\": \"+a(n[c]));return\"{\"+l.join(\", \")+\"}\"}}return'\"'+n.toString().replace(o,r)+'\"'}}()}),Array.prototype.indexOf||(Array.prototype.indexOf=function(e,t){var n;if(null==this)throw new TypeError('\"this\" is null or not defined');var r=Object(this),o=r.length>>>0;if(0===o)return-1;var a=+t||0;if(Math.abs(a)===1/0&&(a=0),a>=o)return-1;for(n=Math.max(a>=0?a:o-Math.abs(a),0);n<o;){if(n in r&&r[n]===e)return n;n++}return-1}),function(){window.document.querySelectorAll||(document.querySelectorAll=document.body.querySelectorAll=Object.querySelectorAll=function(e,t,n,r,o){var a=document,i=a.createStyleSheet();for(o=a.all,t=[],e=e.replace(/\\[for\\b/gi,\"[htmlFor\").split(\",\"),n=e.length;n--;){for(i.addRule(e[n],\"k:v\"),r=o.length;r--;)o[r].currentStyle.k&&t.push(o[r]);i.removeRule(0)}return t})}(),document.querySelector||(document.querySelector=function(e){var t=document.querySelectorAll(e);return t.length?t[0]:null}),Function.prototype.bind||(Function.prototype.bind=function(e){if(\"function\"!=typeof this)throw new TypeError(\"Function.prototype.bind - what is trying to be bound is not callable\");var t=Array.prototype.slice.call(arguments,1),n=this,r=function(){},o=function(){return n.apply(this instanceof r?this:e,t.concat(Array.prototype.slice.call(arguments)))};return this.prototype&&(r.prototype=this.prototype),o.prototype=new r,o}),Object.defineProperty&&Object.getOwnPropertyDescriptor&&Object.getOwnPropertyDescriptor(Element.prototype,\"textContent\")&&!Object.getOwnPropertyDescriptor(Element.prototype,\"textContent\").get&&!function(){var e=Object.getOwnPropertyDescriptor(Element.prototype,\"innerText\");Object.defineProperty(Element.prototype,\"textContent\",{get:function(){return e.get.call(this)},set:function(t){return e.set.call(this,t)}})}(),window.Element&&!Element.prototype.matches&&(Element.prototype.matches=function e(t){for(var e=(this.document||this.ownerDocument).querySelectorAll(t),n=e.length;--n>=0&&e.item(n)!==this;);return n>-1}),window.attachedEvents=[],window.onunload=function(){var e,t;for(e=0;e<attachedEvents.length;e++)t=attachedEvents[e],t[0]&&t[0].detachEvent(\"on\"+t[1],t[2]);attachedEvents=[]};var _=_||{};_.now=Date.now||function(){return(new Date).getTime()},_.throttle=function(e,t,n){var r,o,a,i=null,s=0;n||(n={});var l=function(){s=n.leading===!1?0:_.now(),i=null,a=e.apply(r,o),i||(r=o=null)};return function(){var c=_.now();s||n.leading!==!1||(s=c);var u=t-(c-s);return r=this,o=arguments,u<=0||u>t?(i&&(clearTimeout(i),i=null),s=c,a=e.apply(r,o),i||(r=o=null)):i||n.trailing===!1||(i=setTimeout(l,u)),a}},_.debounce=function(e,t,n){var r,o,a,i,s,l=function(){var c=_.now()-i;c<t&&c>=0?r=setTimeout(l,t-c):(r=null,n||(s=e.apply(a,o),r||(a=o=null)))};return function(){a=this,o=arguments,i=_.now();var c=n&&!r;return r||(r=setTimeout(l,t)),c&&(s=e.apply(a,o),a=o=null),s}};var mw=mw||{};mw.html=function(){function e(e){switch(e){case\"'\":return\"&#039;\";case'\"':return\"&quot;\";case\"<\":return\"&lt;\";case\">\":return\"&gt;\";case\"&\":return\"&amp;\"}}return{escape:function(t){return t.replace(/['\"<>&]/g,e)},element:function(e,t,n){var r,o,a=\"<\"+e;for(o in t){if(r=t[o],r===!0)r=o;else if(r===!1)continue;a+=\" \"+o+'=\"'+this.escape(String(r))+'\"'}if(void 0===n||null===n)return a+=\"/>\";switch(a+=\">\",typeof n){case\"string\":a+=this.escape(n);break;case\"number\":case\"boolean\":a+=String(n);break;default:if(n instanceof this.Raw)a+=n.value;else{if(!(n instanceof this.Cdata))throw new Error(\"mw.html.element: Invalid type of contents\");if(/<\\/[a-zA-z]/.test(n.value))throw new Error(\"mw.html.element: Illegal end tag found in CDATA\");a+=n.value}}return a+=\"</\"+e+\">\"},Raw:function(e){this.value=e},Cdata:function(e){this.value=e}}}(),mw.storage={localStorage:window.localStorage,get:function(e){try{return mw.storage.localStorage.getItem(e)}catch(t){}return!1},set:function(e,t){try{return mw.storage.localStorage.setItem(e,t),!0}catch(n){}return!1},remove:function(e){try{return mw.storage.localStorage.removeItem(e),!0}catch(t){}return!1}},function(e){e.RegExp={escape:function(e){return e.replace(/([\\\\{}()|.?*+\\-\\^$\\[\\]])/g,\"\\\\$1\")}}}(mw),function(e,t,n,r,o,a,i){\"use strict\";function s(e){var t,r,o=this,a=e.length,i=0,s=o.i=o.j=o.m=0;for(o.S=[],o.c=[],a||(e=[a++]);i<n;)o.S[i]=i++;for(i=0;i<n;i++)t=o.S[i],s=u(s+t+e[i%a]),r=o.S[s],o.S[i]=r,o.S[s]=t;o.g=function(e){var t=o.S,r=u(o.i+1),a=t[r],i=u(o.j+a),s=t[i];t[r]=s,t[i]=a;for(var l=t[u(a+s)];--e;)r=u(r+1),a=t[r],i=u(i+a),s=t[i],t[r]=s,t[i]=a,l=l*n+t[u(a+s)];return o.i=r,o.j=i,l},o.g(n)}function l(e,t,n,r,o){if(n=[],o=typeof e,t&&\"object\"==o)for(r in e)if(r.indexOf(\"S\")<5)try{n.push(l(e[r],t-1))}catch(a){}return n.length?n:e+(\"string\"!=o?\"\\0\":\"\")}function c(e,t,n,r){for(e+=\"\",n=0,r=0;r<e.length;r++)t[u(r)]=u((n^=19*t[u(r)])+e.charCodeAt(r));e=\"\";for(r in t)e+=String.fromCharCode(t[r]);return e}function u(e){return e&n-1}t.seedrandom=function(u,d){var g,m=[];return u=c(l(d?[u,e]:arguments.length?u:[(new Date).getTime(),e,window],3),m),g=new s(m),c(g.S,e),t.seededrandom=function(){for(var e=g.g(r),t=i,s=0;e<o;)e=(e+s)*n,t*=n,s=g.g(1);for(;e>=a;)e/=2,t/=2,s>>>=1;return(e+s)/t},u},i=t.pow(n,r),o=t.pow(2,o),a=2*o,c(t.random(),e)}([],Math,256,6,52),function(){\"use strict\";var e,t,n,r=\"/beacon/event\",o=[];for(t={extend:function(e,t){var n,r={};for(n in e)Object.prototype.hasOwnProperty.call(e,n)&&e[n]&&(r[n]=e[n]);for(n in t)Object.prototype.hasOwnProperty.call(t,n)&&t[n]&&(r[n]=t[n]);return r},noop:function(){}},n=0;n<256;n++)o[n]=(n+256).toString(16).slice(1);e=window.eventLoggingLite={schema:{},maxUrlSize:2e3,byteToHex:o,checkUrlSize:function(t,n){var r;if(n.length>e.maxUrlSize)return r=\"Url exceeds maximum length\"},generateRandomSessionId:function(){var t,n,r,o=new Array(8),a=window.crypto||window.msCrypto;if(a&&a.getRandomValues)t=new Uint8Array(8),a.getRandomValues(t);else for(t=new Array(8),n=0;n<8;n++)0===(3&n)&&(r=4294967296*Math.random()),t[n]=r>>>((3&n)<<3)&255;for(n=0;n<8;n++)o[n]=e.byteToHex[t[n]];return o.join(\"\")},validate:function(e,t){var n,r,o,a=[];if(!t||!t.properties)return a.push(\"Missing or empty schema\"),a;for(n in e)t.properties.hasOwnProperty(n)||a.push(\"Undeclared property: \"+n);for(n in t.properties)o=t.properties[n],e.hasOwnProperty(n)?(r=e[n],o[\"enum\"]&&o.required&&o[\"enum\"].indexOf(r)===-1&&a.push('Value \"'+JSON.stringify(r)+'\" for property \"'+n+'\" is not one of '+JSON.stringify(o[\"enum\"]))):o.required&&a.push(\"Missing property:\",n);return a},prepare:function(n,r){for(var o=t.extend(n.defaults,r),a=e.validate(o,n);a.length;)console.log(a[a.length-1]),a.pop();return{event:o,revision:n.revision||-1,schema:n.name,webHost:location.hostname,wiki:\"metawiki\"}},makeBeaconUrl:function(e){var t=encodeURIComponent(JSON.stringify(e));return r+\"?\"+t+\";\"},sendBeacon:/1|yes/.test(navigator.doNotTrack)||!r?t.noop:navigator.sendBeacon?function(e){try{navigator.sendBeacon(e)}catch(t){}}:function(e){document.createElement(\"img\").src=e},logEvent:function(t,n){var r=e.prepare(t,n),o=e.makeBeaconUrl(r),a=e.checkUrlSize(t,o);a||e.sendBeacon(o)}}}(),window.wmTest=function(e,t){function n(){function e(e){var t=getIso639(e);t&&r.indexOf(t)<0&&r.push(t)}var t,n,r=[];for(n in navigator.languages)e(navigator.languages[n]);return/Android/i.test(navigator.userAgent)&&(t=navigator.userAgent.split(\";\"),t[3]&&e(t[3].trim())),e(navigator.language),e(navigator.userLanguage),e(navigator.browserLanguage),e(navigator.systemLanguage),r}function r(e){return 1===Math.floor(Math.seededrandom()*e+1)}function o(){var e=\"rejected\";return r(u.popSize)&&(e=\"baseline\",u.testGroups&&u.testGroups.test&&r(10)&&(e=r(2)?u.testGroups.test:u.testGroups.control)),e}function a(){var n,r,o,a=!1;return window.localStorage&&!/1|yes/.test(navigator.doNotTrack)&&(n=t.storage.get(d.SESSION_ID),r=t.storage.get(d.EXPIRES),o=(new Date).getTime(),n&&r>parseInt(o,10)?a=n:(a=e.generateRandomSessionId(),t.storage.set(d.SESSION_ID,a)),t.storage.set(d.EXPIRES,o+u.sessionLength)),a}var i,s,l,c,u={popSize:/www.wikipedia.org/.test(location.hostname)?200:2,testGroups:!1,sessionLength:9e5},d={GROUP:\"portal_test_group\",SESSION_ID:\"portal_session_id\",EXPIRES:\"portal_test_group_expires\"};return i=n(),c=location.hash.slice(1)===u.testGroups.test,s=a(),s?(Math.seedrandom(s),l=c?u.testGroups.test:o()):(l=\"rejected\",c=!0),u.testGroups&&l===u.testGroups.test&&(document.body.className+=\" \"+l),{loggingDisabled:c,sessionId:s,userLangs:i,group:l,testGroups:u.testGroups,populationSize:u.popSize,getTestGroup:o}}(eventLoggingLite,mw),function(e,t){\"use strict\";function n(e,t){var n,r,o,a={};for(n=0;n<t.length;n++)for(o=t[n].nodes,r=0;r<o.length;r++)o[r].contains(e)&&(a=t[n]);return a.name}function r(e){return\"A\"!==e.tagName&&e.parentElement?r(e.parentElement):e}function o(){d={event_type:\"landing\"},e.logEvent(l,d),d=null}function a(t){var o,a=t||window.event,i=a.target||a.srcElement;i.matches(\"a, a *\")&&(o=r(i),d={event_type:\"clickthrough\",destination:o.href,section_used:n(o,c)},\"search\"===d.section_used&&(d.selected_language=document.getElementById(\"searchLanguage\").options[document.getElementById(\"searchLanguage\").selectedIndex].lang),d.section_used&&e.logEvent(l,d))}function i(t){var n=t||window.event,r=n.target||n.srcElement;if(\"searchLanguage\"===r.id){if(r.selectedIndex===-1)return;d={event_type:\"select-language\",selected_language:r.options[r.selectedIndex].lang},d.selected_language&&e.logEvent(l,d)}}function s(t){var r=t||window.event,o=r.target||r.srcElement;null===d&&(d={event_type:\"clickthrough\",section_used:n(o,c),destination:o.action}),\"search\"===d.section_used&&(d.selected_language=document.getElementById(\"searchLanguage\").options[document.getElementById(\"searchLanguage\").selectedIndex].lang),d.section_used&&e.logEvent(l,d)}var l,c,u,d,g,m,h=document.cookie.match(/GeoIP=.[^:]/);if(\"rejected\"!==t.group&&!t.loggingDisabled){for(l={name:\"WikipediaPortal\",revision:15890769,defaults:{session_id:t.sessionId,event_type:\"landing\",referer:document.referrer||null,accept_language:t.userLangs.toString(),cohort:t.group},properties:{session_id:{type:\"string\",required:!0},event_type:{type:\"string\",required:!0,\"enum\":[\"landing\",\"clickthrough\",\"select-language\"]},section_used:{type:\"string\",required:!1,\"enum\":[\"primary links\",\"search\",\"language search\",\"secondary links\",\"other languages\",\"other projects\"]},destination:{type:\"string\",required:!1},referer:{type:\"string\",required:!1},country:{type:\"string\",required:!1},accept_language:{type:\"string\",required:!0},cohort:{type:\"string\",required:!1},selected_language:{type:\"string\",required:!1}}},c=[{name:\"primary links\",nodes:document.querySelectorAll('[data-el-section=\"primary links\"]')},{name:\"search\",nodes:document.querySelectorAll('[data-el-section=\"search\"]')},{name:\"language search\",nodes:document.querySelectorAll('[data-el-section=\"language search\"]')},{name:\"secondary links\",nodes:document.querySelectorAll('[data-el-section=\"secondary links\"]')},{name:\"other languages\",nodes:document.querySelectorAll('[data-el-section=\"other languages\"]')},{name:\"other projects\",nodes:document.querySelectorAll('[data-el-section=\"other projects\"]')}],addEvent(document,\"click\",a),addEvent(document,\"change\",i),u=document.getElementsByTagName(\"form\"),m=0;m<u.length;m++)addEvent(u[m],\"submit\",s);h&&(g=h.toString().split(\"=\")[1],\"US\"===g?l.defaults.country=document.cookie.match(/GeoIP=.[^:].{2}[^:]/).toString().split(\"=\")[1]:l.defaults.country=g,addEvent(window,\"load\",o)),addEvent(window,\"load\",o)}}(eventLoggingLite,wmTest);var WMTypeAhead=function(e,t){function n(e){var t,n=[];for(t in e)e.hasOwnProperty(t)&&n.push(t+\"=\"+encodeURIComponent(e[t]));return n.join(\"&\")}function r(){setTimeout(function(){var e=document.getElementById(\"api_opensearch\");p.innerHTML=\"\",e&&(e.src=!1),m.clear()},300)}function o(e,t){var o,a,i,s=document.getElementById(\"api_opensearch\"),l=document.getElementsByTagName(\"head\")[0];return c=encodeURIComponent(t)||\"en\",u=encodeURIComponent(e),0===u.length?void r():(o=\"//\"+c+\".wikipedia.org/w/api.php?\",s&&l.removeChild(s),s=document.createElement(\"script\"),s.id=\"api_opensearch\",a=window.callbackStack.addCallback(window.portalOpensearchCallback),i={action:\"query\",format:\"json\",generator:\"prefixsearch\",prop:\"pageprops|pageimages|pageterms\",redirects:\"\",ppprop:\"displaytitle\",piprop:\"thumbnail\",pithumbsize:w,pilimit:y,wbptterms:\"description\",gpssearch:e,gpsnamespace:0,gpslimit:y,callback:\"callbackStack.queue[\"+a+\"]\"},s.src=o+n(i),void l.appendChild(s))}function a(e,t){var n,r,o,a,i=mw.html.escape(mw.RegExp.escape(t)),s=new RegExp(i,\"i\"),l=e.search(s),c=mw.html.escape(e);return l>=0&&(n=l+i.length,r=e.substring(l,n),o=e.substring(0,l),a=e.substring(n,e.length),c=o+mw.html.element(\"em\",{\"class\":\"suggestion-highlight\"},r)+a),c}function i(e){var t,n,r,o,i,s,l,d='<div class=\"suggestions-dropdown\">',g=!1,m=\"\",h=\"\";for(l=0;l<e.length;l++)e[l]&&(s=e[l],h=s.terms&&s.terms.description?s.terms.description:\"\",g=!1,s.thumbnail&&s.thumbnail.source&&(g=s.thumbnail.source.replace(/\\\"/g,\"%22\"),g=g.replace(/'/g,\"%27\")),m=\"\",h&&(m=\"object\"==typeof h&&h[0]?h[0].toString():h.toString()),i=mw.html.element(\"p\",{\"class\":\"suggestion-description\"},m),o=mw.html.element(\"h3\",{\"class\":\"suggestion-title\"},new mw.html.Raw(a(s.title,u))),r=mw.html.element(\"div\",{\"class\":\"suggestion-text\"},new mw.html.Raw(o+i)),n=mw.html.element(\"div\",{\"class\":\"suggestion-thumbnail\",style:!!g&&\"background-image:url(\"+g+\")\"},\"\"),t=mw.html.element(\"a\",{\"class\":\"suggestion-link\",href:\"https://\"+c+\".wikipedia.org/wiki/\"+encodeURIComponent(s.title.replace(/ /gi,\"_\"))},new mw.html.Raw(r+n)),d+=t);return d+=\"</div>\"}function s(e,t){var n,r,o=\" active\";for(r=0;r<t.length;r++)n=t[r],n!==e?n.className=n.className.replace(o,\"\"):/ active/.test(e.className)?e.className=e.className.replace(o,\"\"):(e.className+=o,m.setIndex(r))}function l(e){var t,n,r=e||window.event,o=r.which||r.keyCode;p.firstChild&&(40!==o&&38!==o||(t=p.firstChild.childNodes,n=40===o?m.increment(1):m.increment(-1),g=!!t&&t[n],s(g,t)),13===o&&g&&(r.preventDefault?r.preventDefault():r.returnValue=!1,g.children[0].click()))}var c,u,d,g,m,h=\"typeahead-suggestions\",p=document.getElementById(h),f=document.getElementById(e),v=document.getElementById(t),w=80*getDevicePixelRatio(),y=6;return p||(p=document.createElement(\"div\"),p.id=h,f.appendChild(p)),window.callbackStack={queue:{},index:-1,incrementIndex:function(){return this.index+=1,this.index},addCallback:function(e){var t=this.incrementIndex();return this.queue[t]=e(t),t},deleteSelfFromQueue:function(e){delete this.queue[e]},deletePrevCallbacks:function(e){var t;this.deleteSelfFromQueue(e);for(t in this.queue)t<e&&(this.queue[t]=this.deleteSelfFromQueue.bind(window.callbackStack,t))}},m={index:-1,max:y,setMax:function(e){this.max=e},increment:function(e){return this.index+=e,this.index<0&&this.setIndex(this.max-1),this.index===this.max&&this.setIndex(0),this.index},setIndex:function(e){return e<=this.max-1&&(this.index=e),this.index},clear:function(){this.setIndex(-1)}},window.portalOpensearchCallback=function(e){var t,n,r,o,a,l=e,c=[];return function(u){if(window.callbackStack.deletePrevCallbacks(l),document.activeElement===v){t=u.query&&u.query.pages?u.query.pages:[];for(n in t)r=t[n],c[r.index-1]=r;for(o=i(c),m.setMax(c.length),m.clear(),p.innerHTML=o,d=p.childNodes[0].childNodes,e=0;e<d.length;e++)a=d[e],addEvent(a,\"mouseenter\",s.bind(this,a,d)),addEvent(a,\"mouseleave\",s.bind(this,a,d))}}},addEvent(v,\"keydown\",l),addEvent(v,\"blur\",r),{typeAheadEl:p,query:o}};!function(e,t){var n,r=document.getElementById(\"searchInput\"),o=new t(\"search-input\",\"searchInput\");n=\"oninput\"in document?\"input\":\"propertychange\",addEvent(r,n,_.debounce(function(){o.query(r.value,document.getElementById(\"searchLanguage\").value)},100))}(wmTest,WMTypeAhead),localizeTopTen(),function(){\"use strict\";function e(e){return document.getElementById(e)}function t(e){var t,n;document.querySelector&&\"www-wiktionary-org\"===document.body.id&&!e.match(/\\W/)&&(t=document.querySelector('option[lang|=\"'+e+'\"]'),n=t&&t.getAttribute(\"data-logo\"),n&&document.body.setAttribute(\"data-logo\",n))}function n(e){var t=document.createElement(\"link\"),n=window.location.hostname.split(\".\"),r=n.pop(),o=n.pop();t.rel=\"preconnect\",t.href=\"//\"+e+\".\"+o+\".\"+r,document.head.appendChild(t)}function r(){var e=navigator.languages&&navigator.languages[0]||navigator.language||navigator.userLanguage||\"\";return e.toLowerCase().split(\"-\")[0]}function o(){var e=document.cookie.match(/(?:^|\\W)searchLang=([^;]+)/);return(e?e[1]:r()).toLowerCase()}function a(e,t){for(;e.firstChild;)e.removeChild(e.firstChild);e.appendChild(document.createTextNode(t))}function i(t){var n,r,o,i=\"data-convert-hans\",s=\"data-converttitle-hans\";if(\"zh-hans,zh-cn,zh-sg,zh-my,\".indexOf(t+\",\")!==-1)for(o=[\"zh_art\",\"zh_others\",\"zh_search\",\"zh_tag\",\"zh_top10\",\"zh-yue_wiki\",\"gan_wiki\",\"hak_wiki\",\"wuu_wiki\"],n=0;n<o.length;n+=1)r=e(o[n]),r&&(r.hasAttribute(i)&&a(r,r.getAttribute(i)),r.hasAttribute(s)&&(r.title=r.getAttribute(s)))}function s(t){var n;0===t.indexOf(\"zh\")&&(n=t.substring(3),\"mo\"===n?n=\"hk\":\"my\"===n&&(n=\"sg\"),n&&\"cn,tw,hk,sg,\".indexOf(n+\",\")>=0&&(e(\"zh_wiki\").href+=\"zh-\"+n+\"/\",e(\"zh_others\").href=e(\"zh_others\").href.replace(\"wiki/\",\"zh-\"+n+\"/\")),i(t))}function l(e){var n,o,a;e&&(n=r(),o=n.match(/^\\w+/),a=new Date,t(e),o&&o[0]===e?a.setTime(a.getTime()-1):a.setFullYear(a.getFullYear()+1),document.cookie=\"searchLang=\"+e+\";expires=\"+a.toUTCString()+\";domain=\"+location.host+\";\")}function c(e,t){var n,r,o,a,i={ratio:1};for(n=t.split(/ *, */),o=0;o<n.length;o++)r=n[o].match(/\\s*(\\S+)(?:\\s*([\\d.]+)w)?(?:\\s*([\\d.]+)h)?(?:\\s*([\\d.]+)x)?\\s*/),a=r[4]&&parseFloat(r[4]),a<=e&&a>i.ratio&&(i.ratio=a,i.src=r[1],i.width=r[2]&&parseFloat(r[2]),i.height=r[3]&&parseFloat(r[3]));return i}function u(){var e,t,n,r,o,a=getDevicePixelRatio(),i=new Image;if(a>1&&void 0===i.srcset)for(e=document.getElementsByTagName(\"img\"),o=0;o<e.length;o++)t=e[o],n=t.getAttribute(\"srcset\"),\"string\"==typeof n&&\"\"!==n&&(r=c(a,n),void 0!==r.src&&(t.setAttribute(\"src\",r.src),void 0!==r.width&&t.setAttribute(\"width\",r.width),void 0!==r.height&&t.setAttribute(\"height\",r.height)))}doWhenReady(function(){var r,i,l,c,u,d,g,m,h,p=o();if(p&&(s(p),r=getIso639(p),i=e(\"searchLanguage\"))){for(l=i.getElementsByTagName(\"option\"),c=0,u=l.length;!d&&c<u;c+=1)l[c].value===r&&(d=r);!d&&document.querySelector&&(g=document.querySelector('.langlist a[lang|=\"'+r+'\"]'),g&&(d=r,m=document.createElement(\"option\"),m.setAttribute(\"lang\",r),m.setAttribute(\"value\",r),h=g.textContent||g.innerText||r,a(m,h),i.appendChild(m))),d&&(i.value=d,t(d),n(d))}}),doWhenReady(function(){var t,n,r,o=e(\"searchInput\"),a=e(\"searchLanguage\");if(o)for(o.setAttribute(\"results\",\"10\"),void 0===o.autofocus?o.focus():window.scroll(0,0),t=location.search&&location.search.substr(1).split(\"&\"),n=0;n<t.length;n+=1)if(r=t[n].split(\"=\"),\"search\"===r[0]&&r[1]){o.value=decodeURIComponent(r[1].replace(/\\+/g,\" \"));break}addEvent(a,\"change\",function(){a.blur(),l(a.value)})}),doWhenReady(function(){var e=document.searchwiki&&document.searchwiki.elements.uselang;e&&(e.value=r())}),doWhenReady(u)}(),window.mw||(window.mw=window.mediaWiki={loader:{state:function(){}}}),function(){function e(){/ lang-list-active /g.test(document.body.className)?(document.body.className=document.body.className.replace(\" lang-list-active \",\"\"),mw.storage.set(\"lang-list-active\",\"false\")):(document.body.className+=\" lang-list-active \",mw.storage.set(\"lang-list-active\",\"true\"))}function t(e){var t,n,r,o=document.getElementsByTagName(\"a\"),a=!0;for(t=0;t<o.length&&a;t++)n=o[t],r=n.getAttribute(\"lang\"),r&&e.indexOf(r)>=0&&(a=!1);return a}var n=document.getElementById(\"js-lang-list-button\");(\"true\"===mw.storage.get(\"lang-list-active\")||t(wmTest.userLangs))&&e(),addEvent(n,\"click\",function(){e()})}(),function(e,t,n,r){function o(e){var t;try{t=JSON.parse(e)}catch(n){t=\"\"}return t}function a(){var e=n.storage.get(\"translationHash\");return t===e&&e}function i(e,t){var r=o(n.storage.get(\"storedTranslations\"))||{};r[e]=t,n.storage.set(\"storedTranslations\",JSON.stringify(r))}function s(e,t){var n=0;for(t=String(t).split(\".\");n<t.length;){if(void 0===e||null===e)return;e=e[t[n++]]}return e}function l(e){var t,n,r,o,a,i,l=document.querySelectorAll(\".jsl10n\"),c=new RegExp(/<a[^>]*>([^<]+)<\\/a>/);for(t=0;t<l.length;t++)if(n=l[t],r=n.getAttribute(\"data-jsl10n\"),o=s(e,r),\"string\"==typeof o&&o.length>0)switch(r){case\"app-links.other\":c.test(o)?n.innerHTML=o:n.firstChild.textContent=o;break;case\"license\":n.innerHTML=o;break;case\"terms\":n.firstChild.textContent=o,a=s(e,\"terms-link\"),a&&n.firstChild.setAttribute(\"href\",a);break;case\"Privacy Policy\":n.firstChild.textContent=o,i=s(e,\"privacy-policy-link\"),i&&n.firstChild.setAttribute(\"href\",i);break;default:n.textContent=o}wmL10nVisible.makeVisible()}function c(e){document.documentElement.lang=e,r.indexOf(e)>=0?document.dir=\"rtl\":document.dir=\"ltr\"}var u,d,g,m,h=e.userLangs[0];if(\"en\"===e.userLangs[0])return void wmL10nVisible.makeVisible();if(u=a(),d=u?o(n.storage.get(\"storedTranslations\"))||{}:{},d[h]){if(m=d[h],wmL10nVisible.ready)return;c(h),l(m)}else g=new XMLHttpRequest,g.open(\"GET\",encodeURI(\"portal/wikipedia.org/assets/l10n/\"+h+\"-\"+t+\".json\"),!0),g.onreadystatechange=function(){if(4===g.readyState){if(200!==g.status)return void wmL10nVisible.makeVisible();if(m=o(this.responseText)){if(i(h,m),wmL10nVisible.ready)return;c(h),l(m)}}},g.send()}(wmTest,translationsHash,mw,rtlLangs);"
+  },
+  {
+    "url": "https://www.wikipedia.org/portal/wikipedia.org/assets/js/gt-ie9-011f8dbfa9.js",
+    "ranges": [
+      {
+        "start": 0,
+        "end": 80
+      },
+      {
+        "start": 84,
+        "end": 97
+      },
+      {
+        "start": 106,
+        "end": 483
+      },
+      {
+        "start": 532,
+        "end": 608
+      },
+      {
+        "start": 630,
+        "end": 637
+      }
+    ],
+    "text": "!function(){\"use strict\";doWhenReady(function(){function e(e){var t=4;e.length>3?t=6:3===e.length&&(t=4.5),document.getElementById(\"searchInput\").style.paddingRight=16*t+\"px\"}function t(){var t=document.createElement(\"label\");return t.setAttribute(\"for\",\"language\"),t.setAttribute(\"id\",\"jsLangLabel\"),t.className=\"js-langpicker-label\",t.innerText=l.value,t.textContent=l.value,l.parentNode.parentNode.className=\" styled-select js-enabled\",e(l.value),l.parentNode.insertBefore(t,l),t}function n(t){a.innerText=t,a.textContent=t,e(t)}var a,l=document.getElementById(\"searchLanguage\");a=t(),addEvent(l,\"change\",function(){n(l.value)})})}();"
+  },
+  {
+    "url": "https://www.wikipedia.org/",
+    "ranges": [
+      {
+        "start": 1,
+        "end": 1429
+      },
+      {
+        "start": 1494,
+        "end": 1711
+      }
+    ],
+    "text": "\n.sprite{background-image:url(portal/wikipedia.org/assets/img/sprite-556af1a5.png);background-image:linear-gradient(transparent,transparent),url(portal/wikipedia.org/assets/img/sprite-556af1a5.svg);background-repeat:no-repeat;display:inline-block;vertical-align:middle}.svg-Commons-logo_sister{background-position:0 0;width:47px;height:47px}.svg-MediaWiki-logo_sister{background-position:0 -47px;width:42px;height:42px}.svg-Meta-Wiki-logo_sister{background-position:0 -89px;width:37px;height:37px}.svg-Wikibooks-logo_sister{background-position:0 -126px;width:37px;height:37px}.svg-Wikidata-logo_sister{background-position:0 -163px;width:49px;height:49px}.svg-Wikimedia-logo_black{background-position:0 -212px;width:42px;height:42px}.svg-Wikipedia_wordmark{background-position:0 -254px;width:176px;height:32px}.svg-Wikiquote-logo_sister{background-position:0 -286px;width:42px;height:42px}.svg-Wikisource-logo_sister{background-position:0 -328px;width:39px;height:39px}.svg-Wikispecies-logo_sister{background-position:0 -367px;width:42px;height:42px}.svg-Wikiversity-logo_sister{background-position:0 -409px;width:43px;height:37px}.svg-Wikivoyage-logo_sister{background-position:0 -446px;width:36px;height:36px}.svg-Wiktionary-logo_sister{background-position:0 -482px;width:37px;height:37px}.svg-arrow-down{background-position:0 -519px;width:12px;height:8px}.svg-arrow-down-blue{background-position:0 -527px;width:12px;height:8px}.svg-noimage{background-position:0 -535px;width:58px;height:58px}.svg-search-icon{background-position:0 -593px;width:22px;height:22px}.svg-translate-icon{background-position:0 -615px;width:25px;height:18px}.svg-wikipedia_app_tile{background-position:0 -633px;width:42px;height:42px}\n"
+  },
+  {
+    "url": "https://www.wikipedia.org/",
+    "ranges": [
+      {
+        "start": 341,
+        "end": 455
+      },
+      {
+        "start": 708,
+        "end": 739
+      },
+      {
+        "start": 803,
+        "end": 828
+      },
+      {
+        "start": 850,
+        "end": 918
+      },
+      {
+        "start": 950,
+        "end": 970
+      },
+      {
+        "start": 1080,
+        "end": 1093
+      },
+      {
+        "start": 1167,
+        "end": 1261
+      },
+      {
+        "start": 1361,
+        "end": 1602
+      },
+      {
+        "start": 1723,
+        "end": 1748
+      },
+      {
+        "start": 1980,
+        "end": 2381
+      },
+      {
+        "start": 2559,
+        "end": 2826
+      },
+      {
+        "start": 2891,
+        "end": 3029
+      },
+      {
+        "start": 3184,
+        "end": 4382
+      },
+      {
+        "start": 4777,
+        "end": 4861
+      },
+      {
+        "start": 5482,
+        "end": 5857
+      },
+      {
+        "start": 5920,
+        "end": 6003
+      },
+      {
+        "start": 6130,
+        "end": 6935
+      },
+      {
+        "start": 7622,
+        "end": 7945
+      },
+      {
+        "start": 8017,
+        "end": 8220
+      },
+      {
+        "start": 8322,
+        "end": 8564
+      },
+      {
+        "start": 9453,
+        "end": 10077
+      },
+      {
+        "start": 10149,
+        "end": 10568
+      },
+      {
+        "start": 16209,
+        "end": 16441
+      },
+      {
+        "start": 16487,
+        "end": 17176
+      },
+      {
+        "start": 17413,
+        "end": 17761
+      },
+      {
+        "start": 17829,
+        "end": 17871
+      },
+      {
+        "start": 18040,
+        "end": 18219
+      },
+      {
+        "start": 18480,
+        "end": 19005
+      },
+      {
+        "start": 19241,
+        "end": 19469
+      },
+      {
+        "start": 19793,
+        "end": 20272
+      },
+      {
+        "start": 20623,
+        "end": 21139
+      },
+      {
+        "start": 21532,
+        "end": 21673
+      },
+      {
+        "start": 21736,
+        "end": 22028
+      },
+      {
+        "start": 22187,
+        "end": 22665
+      },
+      {
+        "start": 22821,
+        "end": 23373
+      },
+      {
+        "start": 23508,
+        "end": 23814
+      },
+      {
+        "start": 24058,
+        "end": 24597
+      },
+      {
+        "start": 24711,
+        "end": 24968
+      },
+      {
+        "start": 25501,
+        "end": 26407
+      },
+      {
+        "start": 28123,
+        "end": 28268
+      }
+    ],
+    "text": "\n/*!\nPure v0.6.1-pre\nCopyright 2014 Yahoo! Inc. All rights reserved.\nLicensed under the BSD License.\nhttps://github.com/yahoo/pure/blob/master/LICENSE.md\n*//*!\nnormalize.css v^3.0 | MIT License | git.io/normalize\nCopyright (c) Nicolas Gallagher and Jonathan Neal\n*//*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-size:62.5%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:32px;font-size:3.2rem;margin:10.7px 0;margin:1.07rem 0}mark{background:#fc3;color:#000}small{font-size:85%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:16px 40px;margin:1.6rem 4rem}hr{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:14px;font-size:1.4rem}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:none;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}input[type=search]:focus{outline-offset:-2px}fieldset{border:1px solid silver;margin:0 2px;margin:0 .2rem;padding:5.6px 10px 12px;padding:.56rem 1rem 1.2rem}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}.hidden,[hidden]{display:none!important}body{background-color:#fff;font-family:sans-serif;font-size:13px;font-size:1.3rem;line-height:1.5;margin:3.9px 0;margin:.39rem 0}a{-ms-touch-action:manipulation;touch-action:manipulation}a,a:active,a:focus{unicode-bidi:embed;outline:0;color:#36c;text-decoration:none}a:focus{outline:1px solid #36c}a:hover{text-decoration:underline}img{border:0;vertical-align:middle}hr{clear:both;height:0;border:0;border-bottom:1px solid #c8ccd1;margin:2.6px 13px;margin:.26rem 1.3rem}/*!\nPure v0.6.1-pre\nCopyright 2014 Yahoo! Inc. All rights reserved.\nLicensed under the BSD License.\nhttps://github.com/yahoo/pure/blob/master/LICENSE.md\n*/.pure-button{display:inline-block;zoom:1;line-height:normal;white-space:nowrap;text-align:center;cursor:pointer;-webkit-user-drag:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;background-color:#f8f9fa;color:#222;position:relative;min-height:19.2px;min-height:1.92rem;min-width:16px;min-width:1.6rem;margin:1.6px 0;margin:.16rem 0;border:1px solid #a2a9b1;-moz-border-radius:2px;border-radius:2px;padding:8px 16px;padding:.8rem 1.6rem;font-family:inherit;font-size:inherit;font-weight:700;text-decoration:none;vertical-align:top;-webkit-transition:background .1s ease,color .1s ease,border-color .1s ease,-webkit-box-shadow .1s ease;transition:background .1s ease,color .1s ease,border-color .1s ease,-webkit-box-shadow .1s ease;-moz-transition:background .1s ease,color .1s ease,border-color .1s ease,box-shadow .1s ease,-moz-box-shadow .1s ease;transition:background .1s ease,color .1s ease,border-color .1s ease,box-shadow .1s ease;transition:background .1s ease,color .1s ease,border-color .1s ease,box-shadow .1s ease,-webkit-box-shadow .1s ease,-moz-box-shadow .1s ease}.pure-button::-moz-focus-inner{padding:0;border:0}.pure-button-hover,.pure-button:hover{background-color:#fff;border-color:#a2a9b1;color:#444}.pure-button-active,.pure-button:active{background-color:#c8ccd1;border-color:#72777d;color:#000}.pure-button:focus{outline:0;border-color:#36c;-webkit-box-shadow:inset 0 0 0 1px #36c;-moz-box-shadow:inset 0 0 0 1px #36c;box-shadow:inset 0 0 0 1px #36c}.pure-button-primary-progressive{background-color:#36c;border-color:#36c;color:#fff}.pure-button-primary-progressive:hover{background:#447ff5;border-color:#447ff5}.pure-button-primary-progressive:active{background-color:#2a4b8d;border-color:#2a4b8d;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;color:#fff}.pure-button-primary-progressive:focus{-webkit-box-shadow:inset 0 0 0 1px #36c,inset 0 0 0 2px #fff;-moz-box-shadow:inset 0 0 0 1px #36c,inset 0 0 0 2px #fff;box-shadow:inset 0 0 0 1px #36c,inset 0 0 0 2px #fff;border-color:#36c}/*!\nPure v0.6.1-pre\nCopyright 2014 Yahoo! Inc. All rights reserved.\nLicensed under the BSD License.\nhttps://github.com/yahoo/pure/blob/master/LICENSE.md\n*/.pure-form input[type=search]{background-color:#fff;display:inline-block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border:1px solid #a2a9b1;-moz-border-radius:2px;border-radius:2px;padding:8px;padding:.8rem;-webkit-box-shadow:inset 0 0 0 1px #fff;-moz-box-shadow:inset 0 0 0 1px #fff;box-shadow:inset 0 0 0 1px #fff;vertical-align:middle}.pure-form input:focus:invalid{color:#b32424;border-color:#d33}.pure-form fieldset{margin:0;padding:5.6px 0 12px;padding:.56rem 0 1.2rem;border:0}@media only screen and (max-width:480px){.pure-form input[type=search]{margin-bottom:4.8px;margin-bottom:.48rem;display:block}}.central-textlogo-wrapper{display:inline-block;vertical-align:bottom}.central-textlogo{position:relative;margin:40px auto 5px;margin:4rem auto .5rem;width:270px;font-family:'Linux Libertine','Hoefler Text',Georgia,'Times New Roman',Times,serif;font-size:30px;font-size:3rem;font-weight:400;line-height:33px;line-height:3.3rem;text-align:center;-moz-font-feature-settings:\"ss05=1\";-moz-font-feature-settings:\"ss05\";-webkit-font-feature-settings:\"ss05\";-ms-font-feature-settings:\"ss05\";font-feature-settings:\"ss05\"}.localized-slogan{display:block;font-family:'Linux Libertine',Georgia,Times,serif;font-size:15px;font-size:1.5rem;font-weight:400}.central-textlogo__image{color:transparent;display:inline-block;overflow:hidden;text-indent:-10000px}.central-featured-logo{position:absolute;top:136px;left:35px}@media all and (max-width:480px){.central-textlogo{position:relative;height:70px;width:auto;margin:0;margin-top:20px;margin-top:2rem;text-align:center;line-height:25px;line-height:2.5rem;text-indent:-10px;text-indent:-1rem}.central-textlogo-wrapper{position:relative;top:2px;text-indent:2px;text-indent:.2rem}.svg-Wikipedia_wordmark{width:150px;height:25px;background-position:0 -218px;-webkit-background-size:100% 100%;-moz-background-size:100%;background-size:100%}.localized-slogan{font-size:14px;font-size:1.4rem}.central-featured-logo{position:relative;display:inline-block;width:57px;height:auto;left:0;top:0}}@media all and (max-width:240px){.central-textlogo__image{height:auto}}.central-featured{position:relative;height:325px;height:32.5rem;width:546px;width:54.6rem;max-width:100%;margin:0 auto;text-align:center;vertical-align:middle}.central-featured-lang{position:absolute;width:156px;width:15.6rem}.central-featured-lang .link-box{display:block;padding:0;text-decoration:none;white-space:normal}.central-featured-lang .link-box:hover strong{text-decoration:underline}.central-featured-lang strong{display:block;font-size:larger}.central-featured-lang small{display:inline-block;font-size:11.04px;font-size:1.104rem;line-height:10.36px;line-height:1.036rem;color:#54595d}.central-featured-lang em{font-style:italic}.central-featured-lang .emNonItalicLang{font-style:normal}.lang1{top:0;right:60%}.lang2{top:0;left:60%}.lang3{top:20%;right:70%}.lang4{top:20%;left:70%}.lang5{top:40%;right:72%}.lang6{top:40%;left:72%}.lang7{top:60%;right:70%}.lang8{top:60%;left:70%}.lang9{top:80%;right:60%}.lang10{top:80%;left:60%}@media all and (max-width:480px){.central-featured{width:auto;height:auto;margin-top:70px;margin-top:7rem;font-size:10.4px;font-size:1.04rem;text-align:left}.central-featured:after{content:' ';display:block;visibility:hidden;clear:both;height:0;font-size:0}.central-featured-lang{display:block;float:left;position:relative;top:auto;left:auto;right:auto;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;height:64px;height:6.4rem;width:33%;margin:0;padding:0 16px;padding:0 1.6rem;font-size:12.8px;font-size:1.28rem;text-align:center}.central-featured-lang strong{font-size:12.8px;font-size:1.28rem}.central-featured-lang small{font-size:9.6px;font-size:.96rem;line-height:16.8px;line-height:1.68rem}}@media all and (max-width:375px){.central-featured-lang{font-size:11.2px;font-size:1.12rem}}@media all and (max-width:240px){.central-featured-lang{width:100%}}.search-container{float:none;max-width:95%;width:540px;margin:0 auto 19.5px auto;margin:0 auto 1.95rem auto;padding:3.9px;padding:.39rem;text-align:center;vertical-align:middle}.search-container button{margin:0;padding:8px 16px;padding:.8rem 1.6rem;z-index:2;font-size:16px;font-size:1.6rem;line-height:1.6;vertical-align:middle}.search-container input[type=search]::-webkit-search-cancel-button,.search-container input[type=search]::-webkit-search-decoration,.search-container input[type=search]::-webkit-search-results-button,.search-container input[type=search]::-webkit-search-results-decoration{-webkit-appearance:none}.search-container input::-webkit-calendar-picker-indicator{display:none}.search-container .sprite.svg-arrow-down{position:absolute;top:7px;top:.7rem;right:6.5px;right:.65rem;margin:0}#searchInput{height:43.2px;height:4.32rem;width:100%;padding:8px;padding:.8rem;padding-right:102.4px;padding-right:10.24rem;font-size:16px;font-size:1.6rem;line-height:1.6}.search-container .search-input{display:inline-block;position:relative;width:73%;margin-right:8px;margin-right:.8rem;vertical-align:top}@media only screen and (max-width:480px){.search-container{margin-top:0}.search-container .pure-form fieldset{margin-left:5px;margin-left:.5rem;margin-right:80px;margin-right:8rem}.search-container .search-input{margin-left:5px;margin-left:.5rem;margin-right:-70px;margin-right:-7rem;margin-bottom:0;width:100%}.search-container .pure-form button{float:right;right:-70px;right:-7rem;margin:0;padding:8px 16px;padding:.8rem 1.6rem}}.suggestions-dropdown{background-color:#fff;display:inline-block;position:absolute;left:0;z-index:2;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:100%;margin:0;padding:0;border:1px solid #a2a9b1;border-top:0;-webkit-box-shadow:0 2px 2px 0 rgba(0,0,0,.25);-moz-box-shadow:0 2px 2px 0 rgba(0,0,0,.25);box-shadow:0 2px 2px 0 rgba(0,0,0,.25);text-align:left;list-style-type:none}.suggestion-link{display:block;position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;min-height:70px;min-height:7rem;width:100%;padding:10px 10px 10px 85px;padding:1rem 1rem 1rem 8.5rem;border-bottom:1px solid #eaecf0;color:inherit;text-decoration:none;text-align:left;text-align:initial;white-space:normal}.suggestion-link.active{background-color:#eaf3ff}a.suggestion-link:hover{text-decoration:none}a.suggestion-link:active,a.suggestion-link:focus{outline:0;white-space:normal}.suggestion-thumbnail{background-color:#eaecf0;background-image:url(portal/wikipedia.org/assets/img/noimage.png);background-image:-webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2056%2056%22%20enable-background%3D%22new%200%200%2056%2056%22%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23eee%22%20d%3D%22M0%200h56v56h-56z%22%2F%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23999%22%20d%3D%22M36.4%2013.5h-18.6v24.9c0%201.4.9%202.3%202.3%202.3h18.7v-25c.1-1.4-1-2.2-2.4-2.2zm-6.2%203.5h5.1v6.4h-5.1v-6.4zm-8.8%200h6v1.8h-6v-1.8zm0%204.6h6v1.8h-6v-1.8zm0%2015.5v-1.8h13.8v1.8h-13.8zm13.8-4.5h-13.8v-1.8h13.8v1.8zm0-4.7h-13.8v-1.8h13.8v1.8z%22%2F%3E%0A%3C%2Fsvg%3E%0A);background-image:-webkit-linear-gradient(transparent,transparent),url(portal/wikipedia.org/assets/img/noimage.svg) !ie;background-image:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,0))),url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2056%2056%22%20enable-background%3D%22new%200%200%2056%2056%22%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23eee%22%20d%3D%22M0%200h56v56h-56z%22%2F%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23999%22%20d%3D%22M36.4%2013.5h-18.6v24.9c0%201.4.9%202.3%202.3%202.3h18.7v-25c.1-1.4-1-2.2-2.4-2.2zm-6.2%203.5h5.1v6.4h-5.1v-6.4zm-8.8%200h6v1.8h-6v-1.8zm0%204.6h6v1.8h-6v-1.8zm0%2015.5v-1.8h13.8v1.8h-13.8zm13.8-4.5h-13.8v-1.8h13.8v1.8zm0-4.7h-13.8v-1.8h13.8v1.8z%22%2F%3E%0A%3C%2Fsvg%3E%0A);background-image:-moz-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2056%2056%22%20enable-background%3D%22new%200%200%2056%2056%22%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23eee%22%20d%3D%22M0%200h56v56h-56z%22%2F%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23999%22%20d%3D%22M36.4%2013.5h-18.6v24.9c0%201.4.9%202.3%202.3%202.3h18.7v-25c.1-1.4-1-2.2-2.4-2.2zm-6.2%203.5h5.1v6.4h-5.1v-6.4zm-8.8%200h6v1.8h-6v-1.8zm0%204.6h6v1.8h-6v-1.8zm0%2015.5v-1.8h13.8v1.8h-13.8zm13.8-4.5h-13.8v-1.8h13.8v1.8zm0-4.7h-13.8v-1.8h13.8v1.8z%22%2F%3E%0A%3C%2Fsvg%3E%0A);background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2056%2056%22%20enable-background%3D%22new%200%200%2056%2056%22%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23eee%22%20d%3D%22M0%200h56v56h-56z%22%2F%3E%0A%20%20%20%20%3Cpath%20fill%3D%22%23999%22%20d%3D%22M36.4%2013.5h-18.6v24.9c0%201.4.9%202.3%202.3%202.3h18.7v-25c.1-1.4-1-2.2-2.4-2.2zm-6.2%203.5h5.1v6.4h-5.1v-6.4zm-8.8%200h6v1.8h-6v-1.8zm0%204.6h6v1.8h-6v-1.8zm0%2015.5v-1.8h13.8v1.8h-13.8zm13.8-4.5h-13.8v-1.8h13.8v1.8zm0-4.7h-13.8v-1.8h13.8v1.8z%22%2F%3E%0A%3C%2Fsvg%3E%0A);background-image:-webkit-gradient(linear,left top,left bottom,from(transparent),to(transparent)),url(portal/wikipedia.org/assets/img/noimage.svg) !ie;background-image:-moz-linear-gradient(transparent,transparent),url(portal/wikipedia.org/assets/img/noimage.svg) !ie;background-image:linear-gradient(transparent,transparent),url(portal/wikipedia.org/assets/img/noimage.svg) !ie;background-image:-o-linear-gradient(transparent,transparent),url(portal/wikipedia.org/assets/img/noimage.png);background-position:center center;background-repeat:no-repeat;-webkit-background-size:100% auto;-moz-background-size:100% auto;background-size:100% auto;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;height:100%;width:70px;width:7rem;position:absolute;top:0;left:0}.suggestion-title{margin:0 0 7.8px 0;margin:0 0 .78rem 0;color:#54595d;font-size:15.6px;font-size:1.56rem;line-height:18.72px;line-height:1.872rem}.suggestion-link.active .suggestion-title{color:#36c}.suggestion-highlight{font-style:normal;text-decoration:underline}.suggestion-description{color:#72777d;margin:0;font-size:13px;font-size:1.3rem;line-height:14.299px;line-height:1.43rem}.styled-select{display:none;position:absolute;top:10px;top:1rem;bottom:12px;bottom:1.2rem;right:12px;right:1.2rem;max-width:95px;max-width:9.5rem;height:24px;height:2.4rem;margin:0;padding:0;-moz-border-radius:2px;border-radius:2px}.styled-select:hover{background-color:#f8f9fa}.styled-select .hide-arrow{right:32px;right:3.2rem;max-width:68px;max-width:6.8rem;height:24px;height:2.4rem;padding:0;overflow:hidden;text-align:right}.styled-select select{background:0 0;display:inline;overflow:hidden;height:24px;height:2.4rem;min-width:110px;min-width:11rem;max-width:110px;max-width:11rem;width:110px;width:11rem;outline:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border:0;line-height:19.5px;line-height:1.95rem;-webkit-appearance:none;-moz-appearance:window;text-indent:.01px;text-overflow:'';-o-appearance:none!important;opacity:0;-moz-appearance:none;appearance:none;cursor:pointer}.styled-select.no-js{width:95px;width:9.5rem}.styled-select.no-js select{opacity:1;margin:0;padding:0 24px 0 8px;padding:0 2.4rem 0 .8rem;color:#54595d}.styled-select.no-js .hide-arrow{width:68px;width:6.8rem}.search-container .styled-select.no-js .js-langpicker-label{display:none}.styled-select.js-enabled .hide-arrow{padding:0 24px 0 8px;padding:0 2.4rem 0 .8rem}.styled-select.js-enabled select{background:0 0;position:absolute;top:0;left:0;height:100%;z-index:1;width:100%;border:0;margin:0;padding:0 24px 0;padding:0 2.4rem 0;color:transparent;color:rgba(255,255,255,0)}.styled-select.js-enabled select option{color:#54595d}.styled-select.js-enabled select:hover{background-color:transparent}.styled-select-active-helper{display:none}.styled-select.js-enabled select:focus+.styled-select-active-helper{display:block;position:absolute;top:0;left:0;z-index:0;width:100%;height:100%;outline:1px solid #36c}.search-container .js-langpicker-label{display:inline-block;margin:0;color:#54595d;font-size:12.8px;font-size:1.28rem;line-height:24px;line-height:2.4rem;text-transform:uppercase}.styled-select select:hover{background-color:#f8f9fa}.styled-select select::-ms-expand{display:none}.styled-select select:focus{outline:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}@-moz-document url-prefix(){.styled-select select{width:110%}}.other-projects{display:inline-block;width:70%}.other-project{float:left;position:relative;width:33%;height:90px;height:9rem}.other-project-link{display:inline-block;min-height:50px;width:100%;white-space:nowrap}.other-project-icon{display:inline-block;width:50px;text-align:center}.svg-Wikinews-logo_sister{background-image:url(portal/wikipedia.org/assets/img/Wikinews-logo_sister.png);background-position:0 0;-webkit-background-size:47px 26px;-moz-background-size:47px 26px;background-size:47px 26px;width:47px;height:26px}@media (-webkit-min-device-pixel-ratio:1.25),(min-resolution:120dpi){.svg-Wikinews-logo_sister{background-image:url(portal/wikipedia.org/assets/img/Wikinews-logo_sister@2x.png)}}.other-project .sprite-project-logos{display:inline-block}.other-project-text{display:inline-block;max-width:65%;vertical-align:middle;white-space:normal}.other-project-tagline,.other-project-title{display:block}.other-project-tagline{color:#54595d;font-size:12.16px;font-size:1.216rem}@media screen and (max-width:768px){.other-projects{width:100%}.other-project{width:33%}}@media screen and (max-width:480px){.other-project{width:50%}}@media screen and (max-width:320px){.other-project-text{margin-right:5px;font-size:11.52px;font-size:1.152rem}.other-project-tagline{font-size:10.944px;font-size:1.0944rem}}.lang-list-container{background-color:#f8f9fa;overflow:hidden;position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;max-height:0;width:80%;margin:-16px auto 48px;margin:-1.6rem auto 4.8rem;-webkit-transition:max-height .5s ease-out,visibility .5s ease-in 1s;-moz-transition:max-height .5s ease-out,visibility .5s ease-in 1s;transition:max-height .5s ease-out,visibility .5s ease-in 1s}.js-enabled .lang-list-container{visibility:hidden}.lang-list-active .lang-list-container,.no-js .lang-list-container{visibility:visible;max-height:10000px;-webkit-transition:max-height 1s ease-in .2s,visibility 1000s ease-in 0s;-moz-transition:max-height 1s ease-in .2s,visibility 1000s ease-in 0s;transition:max-height 1s ease-in .2s,visibility 1000s ease-in 0s}.no-js .lang-list-button{display:none}.lang-list-button-wrapper{text-align:center}.lang-list-button{background-color:#f8f9fa;display:inline;position:relative;z-index:1;margin:0 auto;padding:6.4px 12.8px;padding:.64rem 1.28rem;outline:16px solid #fff;outline:1.6rem solid #fff;border:1px solid #a2a9b1;-moz-border-radius:2px;border-radius:2px;color:#36c;font-size:12.8px;font-size:1.28rem;font-weight:400;line-height:1;-webkit-transition:outline-width .1s ease-in .5s;-moz-transition:outline-width .1s ease-in .5s;transition:outline-width .1s ease-in .5s}.lang-list-button:hover{background-color:#fff;border-color:#a2a9b1}.lang-list-button:focus{border-color:#36c;-webkit-box-shadow:inset 0 0 0 1px #36c;-moz-box-shadow:inset 0 0 0 1px #36c;box-shadow:inset 0 0 0 1px #36c}.lang-list-active .lang-list-button{background-color:#fff;outline:1px solid #fff;border-color:#72777d;-webkit-transition-delay:0s;-moz-transition-delay:0s;transition-delay:0s}.lang-list-button-text{padding:0 6.4px;padding:0 .64rem;vertical-align:middle}.lang-list-button i{display:inline-block;vertical-align:middle}.no-js .lang-list-border,.no-js .lang-list-button{display:none}.lang-list-border{background-color:#c8ccd1;display:block;position:relative;max-width:460px;width:80%;margin:-16px auto 16px;margin:-1.6rem auto 1.6rem;height:1px;-webkit-transition:max-width .2s ease-out 400s;-moz-transition:max-width .2s ease-out 400s;transition:max-width .2s ease-out 400s}.lang-list-active .lang-list-border{max-width:85%;-webkit-transition-delay:0s;-moz-transition-delay:0s;transition-delay:0s}.no-js .lang-list-content{padding:0}.lang-list-content{position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:100%;padding:16px 16px 0;padding:1.6rem 1.6rem 0}.svg-arrow-down-blue{-webkit-transition:-webkit-transform .2s ease-out;transition:-webkit-transform .2s ease-out;-moz-transition:transform .2s ease-out,-moz-transform .2s ease-out;transition:transform .2s ease-out;transition:transform .2s ease-out,-webkit-transform .2s ease-out,-moz-transform .2s ease-out}.lang-list-active .svg-arrow-down-blue{-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg)}.langlist{width:auto;margin:16px 0;margin:1.6rem 0;text-align:left}.langlist-others{font-weight:700}.hlist ul{margin:0;padding:0}.hlist li{display:inline}.hlist ul ul{display:inline}.hlist li:before{content:\" · \";font-weight:700}.hlist li:first-child:before{content:none}.hlist li>ul:before{content:\"\\00a0(\"}.hlist li>ul:after{content:\") \"}.langlist>ul{-webkit-column-width:11.2rem;-moz-column-width:11.2rem;column-width:11.2rem}.langlist>ul>li{display:block;line-height:1.7;-webkit-column-break-inside:avoid;page-break-inside:avoid;break-inside:avoid}.no-js .langlist>ul{text-align:center;list-style-type:circle}.no-js .langlist>ul>li{display:inline-block;padding:0 8px;padding:0 .8rem}.langlist>ul>li:before{content:none}.langlist>ul>li a{white-space:normal}.langlist-others>ul{text-align:center;-webkit-column-count:1;-moz-column-count:1;column-count:1}.langlist-others>ul li{display:inline}.langlist-others>ul li:before{content:' · '}.langlist-others>ul li:first-child:before{content:none}@media all and (max-width:480px){.langlist{font-size:inherit}.langlist a{word-wrap:break-word;white-space:normal}.lang-list-container{width:auto;margin-left:8px;margin-left:.8rem;margin-right:8px;margin-right:.8rem}.bookshelf{overflow:visible}}.bookshelf{display:block;border-top:1px solid #c8ccd1;-webkit-box-shadow:0 -1px 0 #fff;-moz-box-shadow:0 -1px 0 #fff;box-shadow:0 -1px 0 #fff;text-align:center;white-space:nowrap}.bookshelf span{background-color:#f8f9fa;position:relative;top:-11.2px;top:-1.12rem;font-weight:400}.bookshelf-container{display:block;overflow:visible;height:1px;width:100%;margin:24px 0 16px;margin:2.4rem 0 1.6rem;font-size:13px;font-size:1.3rem;font-weight:700;line-height:20px;line-height:2rem}.bookshelf-container .text{padding:0 9.92px;padding:0 .992rem}@media all and (max-width:480px){.bookshelf{width:auto;left:auto}.bookshelf-container{text-align:left;width:auto}}.app-badges{background-color:#f8f9fa}.app-badges .footer-sidebar-text{padding-top:8px;padding-top:.8rem;padding-bottom:8px;padding-bottom:.8rem}.app-badges .sprite.footer-sidebar-icon{top:8px;top:.8rem}.app-badges ul{margin:0;padding:0;list-style-type:none}@media screen and (max-width:768px){.app-badges .footer-sidebar-content{max-width:350px;text-align:center}.app-badges .sprite.footer-sidebar-icon{display:inline-block;position:relative;margin:0;top:-3px;left:0;vertical-align:middle;-webkit-transform:scale(.7);-moz-transform:scale(.7);-ms-transform:scale(.7);transform:scale(.7)}.app-badge{float:left;width:49%}.app-badge-android a,.app-badge-ios a{display:block}.app-badge-ios{border-right:1px solid}.app-badge-fulllist{width:100%;margin:19.2px 0 6.4px 0;margin:1.92rem 0 .64rem 0}}.footer{overflow:hidden;max-width:100%;margin:0 auto;padding:41.6px 12.8px 12.8px;padding:4.16rem 1.28rem 1.28rem;font-size:12.8px;font-size:1.28rem}.footer:after,.footer:before{content:' ';display:table}.footer:after{clear:both}.footer-sidebar{width:30%;float:left;clear:left;margin-bottom:32px;margin-bottom:3.2rem;vertical-align:top}.footer-sidebar-content{position:relative;max-width:350px;margin:0 auto}.sprite.footer-sidebar-icon{position:absolute;top:0;left:8px;left:.8rem}.footer-sidebar-text{position:relative;margin:0;padding-left:60px;padding-left:6rem;padding-right:20px;padding-right:2rem;color:#54595d}.site-license{margin:0;color:#54595d;text-align:center}.site-license small:after{content:'\\2022';display:inline-block;font-size:13px;font-size:1.3rem;line-height:inherit;margin-left:8px;margin-left:.8rem;margin-right:5px;margin-right:.5rem}.site-license small:last-child:after{display:none}@media screen and (max-width:768px){.footer{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding-top:12.8px;padding-top:1.28rem}.footer .footer-sidebar{-webkit-box-ordinal-group:1;-moz-box-ordinal-group:1;-webkit-order:1;-ms-flex-order:1;order:1}.footer .other-projects{-webkit-box-ordinal-group:2;-moz-box-ordinal-group:2;-webkit-order:2;-ms-flex-order:2;order:2}.footer .app-badges{-webkit-box-ordinal-group:3;-moz-box-ordinal-group:3;-webkit-order:3;-ms-flex-order:3;order:3}.footer-sidebar{width:100%}.sprite.footer-sidebar-icon{display:block;position:relative;left:0;margin:0 auto 12.8px auto;margin:0 auto 1.28rem auto}.footer-sidebar-content{max-width:none}.footer-sidebar-text{margin:0;padding:0;text-align:center}}@media screen and (max-width:480px){.footer{padding:9.6px 6.4px 12.8px;padding:.96rem .64rem 1.28rem}}@media all and (max-width:480px){.search-container{margin-top:0;height:78px;height:7.8rem;position:absolute;top:90px;top:9rem;left:0;right:0;max-width:100%;width:auto;padding:0;text-align:left}.search-container label{display:none}.search-form #searchInput{max-width:40%;vertical-align:middle}.search-form .formBtn{max-width:25%;vertical-align:middle}form fieldset{margin:0;border-left:0;border-right:0}hr{margin-top:6.5px;margin-top:.65rem}}@media (min--moz-device-pixel-ratio:2),(-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx),(min-resolution:192dpi){hr{border-bottom-width:.5px}}@supports (-webkit-marquee-style:slide){hr{border-bottom-width:1px}}.js-enabled .central-featured,.js-enabled .jsl10n{visibility:hidden}.jsl10n-visible .central-featured,.jsl10n-visible .jsl10n{visibility:visible}.otherprojects-icon{*zoom:1;*display:inline}.suggestion-item{*width:auto}.search-container button{*display:inline}#searchInput{*padding:8px 0 0 8px;*width:90%;*height:34px}#search-input{*display:inline}.langlist ul{*text-align:center}.langlist ul li{*display:inline!important;*padding-left:5px;*padding-right:5px}@media print{body{background-color:transparent}a{color:#000!important;background:0 0!important;padding:0!important}a:link,a:visited{color:#520;background:0 0}img{border:0}}\n"
+  },
+  {
+    "url": "https://www.wikipedia.org/",
+    "ranges": [
+      {
+        "start": 1,
+        "end": 47
+      }
+    ],
+    "text": "\n.styled-select {\n        display: block;\n    }\n"
+  }
+]
